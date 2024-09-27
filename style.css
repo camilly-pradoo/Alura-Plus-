@@ -5,8 +5,23 @@
     --cinza:#c0c0c0;
 }
 body{
-    background-color: var[--cor-de-fundo];
-    color:var[--branco-principal];
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
 *{margin:0;
+    pedding:0;
+}
+.principal {
+    background-image: url["img/background.png"]
+}
+.principal{
+    height: 100vh;
+}
+
+.conteiner__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: leam;
+    color:var(--branco-principal);
+    disolay:block;
 }
