@@ -21,7 +21,33 @@ body{
 .conteiner__botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: leam;
+    padding: 1em;
     color:var(--branco-principal);
-    disolay:block;
+    display:block;
+    margin-bottom: lem;
+}
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+.container_titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.conteiner_image{
+    margin: lem 0 2em 0;
+}
+.conteiner_caixa{
+    margin: 0 6em
+}
+.secundario{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descriçao_titulo{
+    font-weight: 700;
+    font-size: 48px;
 }
