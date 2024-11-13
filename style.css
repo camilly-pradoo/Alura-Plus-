@@ -50,4 +50,22 @@ body{
 .descriçao_titulo{
     font-weight: 700;
     font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.lem;
+}
+.descriçao_texto{
+    color: var(--cinza-secundario)
+}
+.botao_secundario{
+    display: inline-block;
+    margin-top: lem;
+}
+.container_descriçao{
+    padding: 2em;
+}
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
 }
